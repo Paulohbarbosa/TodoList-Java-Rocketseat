@@ -2,9 +2,9 @@
  
 ## Sobre o projeto
 
-O Shorts Summary é um projeto da trilha **Foundations** desenvolvido no NLW IA da **Rocketseat**.
+O Shorts Summary é um projeto da trilha **Java** desenvolvido no Curso Online de Java da **Rocketseat**.
 
-Neste foi proposto utilizando os fundamentos básicos de Web e IA uma aplicação que resume o conteúdo de Shorts vídeos do YouTube:
+Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma aplicação desenvolvido um ToDo List com Backend em java com o mavem e spring boot e o Frontend com ...:
 - Por meio do endereço de um Shorts do YouTube, usar uma IA para exibir o texto do áudio do vídeo e o resumo em tela;
 
 ### Na Aula 01 foi desenvolvido o Frontend da página:
