@@ -2,27 +2,26 @@
  
 ## Sobre o projeto
 
-O Shorts Summary é um projeto da trilha **Java** desenvolvido no Curso Online de Java da **Rocketseat**.
+O TuDo List é um projeto da trilha **Java** desenvolvido no Curso Online de Java da **Rocketseat**.
 
 Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma aplicação desenvolvido um ToDo List com Backend em java com o mavem e spring boot e o Frontend com ...:
 - Por meio do endereço de um Shorts do YouTube, usar uma IA para exibir o texto do áudio do vídeo e o resumo em tela;
 
-### Na Aula 01 foi desenvolvido o Frontend da página:
+### Na Aula 01:
 - Criando o projeto com Maven;
 - Primeiras Classes: User Controller e UserModel;
 
-### Na Aula 02 foi desenvolvido o Backend da página:
+### Na Aula 02:
 - O conceito de Getters e setters;
 - Integração com a lib **LOMBOK**;
 - Integração com o banco de dados em memória **H2 Database Engine** do **JPA**;
 - Construção da tabela de usuários;
-- Interface do 
+- Interface do IUserRepository;
 
-### Na aula 03 integração	do a IA:
-- Instalando as bibliotecas para lidar com a manipulação de áudios e a comunicação com a IA;
-- Com a **Xenova/transformers** possibilita usar modelos de inteligencia artificial (IA) no projeto;
-- Usamos as bibliotecas **fluent-ffmpeg ffmpeg-static** para lidar com os arquivos de áudios extraídos do vídeo; 
-- E com o **node-wav** converter o conteúdo do vídeo.
+### Na aula 03:
+- Criptografia da senha com **Bcrypt Java**;
+- Construção da tabela de Task na classe TaskModel;
+- Construção da TaskController e ITaskRepository, controle dos métodos da classe e comunicação com o bd;
 
 
 ## Layout web desenvolvido
