@@ -23,6 +23,15 @@ Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma
 - Construção da tabela de Task na classe TaskModel;
 - Construção da TaskController e ITaskRepository, controle dos métodos da classe e comunicação com o bd;
 
+### Na aula 03:
+- Correção na validação da rotas em /tasks/;
+- validação do usuário cadastrar tasks;
+- Validação das datas de início e conclusão das tasks; 
+- Listar as tasks;
+- Update inteligente da task;
+
+### Na aula 04:
+- 
 
 ## Layout web desenvolvido
 
