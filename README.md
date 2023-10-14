@@ -8,17 +8,15 @@ Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma
 - Por meio do endereço de um Shorts do YouTube, usar uma IA para exibir o texto do áudio do vídeo e o resumo em tela;
 
 ### Na Aula 01 foi desenvolvido o Frontend da página:
-- Criando o projeto com Vite;
-- Construção da estrutura da página em html;
-- Estilização com CSS, abordando a seleção por classe, objeto e id;
-- Uso da biblioteca phosphor-icons web.
+- Criando o projeto com Maven;
+- Primeiras Classes: User Controller e UserModel;
 
 ### Na Aula 02 foi desenvolvido o Backend da página:
-- Instalando as bibliotecas para lidar com as funcionalidades do backend comunicando com o frontend, e os downloads do vídeo:
-- Usamos o **Express** para criar um servidor local e lidar com as solicitações e respostas;
-- Para permite a comunicação do servidor com o frontend usamos o **Cors**;
-- No frontend usamos o **Axios** para fazer requisições ao backend;
-- **Ytdl-core@4.10.0** usamos para comunicar e fazer o download dos vídeos da plataforma do YouTube e a conversão em áudio.
+- O conceito de Getters e setters;
+- Integração com a lib **LOMBOK**;
+- Integração com o banco de dados em memória **H2 Database Engine** do **JPA**;
+- Construção da tabela de usuários;
+- Interface do 
 
 ### Na aula 03 integração	do a IA:
 - Instalando as bibliotecas para lidar com a manipulação de áudios e a comunicação com a IA;
@@ -36,17 +34,12 @@ Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma
 <img alt="" src="./public/3.gif" width="100%">
 
 ## Tecnologias e bibliotecas utilizadas
-- HTML / CSS / JavaScript
-- Vite
-- phosphor-icons
-- express 
-- cors 
-- axios 
-- ytdl-core@4.10.0
-- @xenova/transformers 
-- fluent-ffmpeg 
-- ffmpeg-static 
-- node-wav
+- Java
+- Maven
+- Spring boot
+- lombok
+- H2 Database Engine
+- 
 
 # Como executar o projeto
 
