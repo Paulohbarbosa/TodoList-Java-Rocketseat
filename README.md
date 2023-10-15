@@ -7,39 +7,38 @@ O TuDo List é um projeto da trilha **Java** desenvolvido no Curso Online de Jav
 Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma aplicação desenvolvido um ToDo List com Backend em java com o mavem e spring boot e o Frontend com ...:
 - Por meio do endereço de um Shorts do YouTube, usar uma IA para exibir o texto do áudio do vídeo e o resumo em tela;
 
-### Na Aula 01:
+### Na Aula 01 - Construção do Back-end:
 - Criando o projeto com Maven;
-- Primeiras Classes: User Controller e UserModel;
+- Primeiras Classes: User Controller e UserModel.
 
-### Na Aula 02:
+### Na Aula 02 - Integração com o BD:
 - O conceito de Getters e setters;
 - Integração com a lib **LOMBOK**;
 - Integração com o banco de dados em memória **H2 Database Engine** do **JPA**;
 - Construção da tabela de usuários;
-- Interface do IUserRepository;
+- Interface do IUserRepository.
 
-### Na aula 03:
+### Na aula 03 - Implementando segurança:
 - Criptografia da senha com **Bcrypt Java**;
 - Construção da tabela de Task na classe TaskModel;
-- Construção da TaskController e ITaskRepository, controle dos métodos da classe e comunicação com o bd;
+- Construção da TaskController e ITaskRepository, controle dos métodos da classe e comunicação com o bd.
 
-### Na aula 03:
+### Na aula 04 - Atualizando tarefas e validação de rotas:
 - Correção na validação da rotas em /tasks/;
-- validação do usuário cadastrar tasks;
+- Validação do usuário cadastrar tasks;
 - Validação das datas de início e conclusão das tasks; 
 - Listar as tasks;
-- Update inteligente da task;
+- Update inteligente da task.
 
-### Na aula 04:
-- 
-
-## Layout web desenvolvido
-
-<img alt="" src="./public/1.gif" width="100%">
-
-<img alt="" src="./public/2.gif" width="100%">
-
-<img alt="" src="./public/3.gif" width="100%">
+### Na aula 05 - Deploy do Back-End:
+- Validação:
+    - Impede que outros usuários altere as tasks que lhe pertence;
+    - Verifica a existência da task antes de qualquer alteração;
+- Controller de erros;
+- Integração com a lib **Spring Developer tools**ç
+- Deploy da aplicação:
+    - Configuração com O Docker;
+    - Integração no render.com;
 
 ## Tecnologias e bibliotecas utilizadas
 - Java
@@ -47,11 +46,12 @@ Neste foi proposto utilizando os fundamentos básicos Java com o Spring Boot uma
 - Spring boot
 - lombok
 - H2 Database Engine
-- 
+- Spring Developer tools
+- Docker
 
 # Como executar o projeto
 
-Pré-requisitos: NODE e npm
+Pré-requisitos: Java 17, Maven e Apidog
 
 ```bash
 # clonar repositório
@@ -59,12 +59,6 @@ git clone https://github.com/Paulohbarbosa/nlwIA_foundations.git
 
 # entrar na pasta do projeto raiz e instale as dependências
 npm i
-
-# executar o projeto 01 terminal
-npm rum web
-
-# executar o projeto 02 terminal
-npm rum server
 ```
 
 # Autor
